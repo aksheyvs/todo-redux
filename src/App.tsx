@@ -1,8 +1,13 @@
+import Layout from "./components/layout/Layout";
+import Header from "./components/layout/Header";
+import MainComponents from "./components/MainComponents";
+
 function App() {
     return (
-        <div>
-            <h1>hello</h1>
-        </div>
+        <Layout>
+            <Header />
+            <MainComponents />
+        </Layout>
     );
 }
 

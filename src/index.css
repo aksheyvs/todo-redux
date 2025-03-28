@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html {
+    @apply text-[62.5%];
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
